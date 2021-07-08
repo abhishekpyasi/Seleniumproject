@@ -16,6 +16,8 @@ public class FirstSelenium {
 		driver.get("https://www.google.co.in/");
 		driver.manage().timeouts().pageLoadTimeout(4, TimeUnit.SECONDS);
 		driver.quit();
+		
+		
 	}
 }
 
